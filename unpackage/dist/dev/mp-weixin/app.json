@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/chuShi/index",
+    "pages/riChang/index",
+    "pages/wenHua/index"
+  ],
+  "subPackages": [],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/chuShi/index",
+        "iconPath": "static/tabBar/chuShi.png",
+        "selectedIconPath": "static/tabBar/chuShi-active.png",
+        "text": "初始于都"
+      },
+      {
+        "pagePath": "pages/riChang/index",
+        "iconPath": "static/tabBar/riChang.png",
+        "selectedIconPath": "static/tabBar/riChang-active.png",
+        "text": "日常"
+      },
+      {
+        "pagePath": "pages/wenHua/index",
+        "iconPath": "static/tabBar/wenHua.png",
+        "selectedIconPath": "static/tabBar/wenHua-active.png",
+        "text": "文化"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

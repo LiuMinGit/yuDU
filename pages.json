@@ -1,0 +1,47 @@
+{
+	"pages": [{
+		"path": "pages/chuShi/index",
+		"style": {
+			"navigationBarTitleText": "初始于都",
+			"navigationBarBackgroundColor": "#1aa034"
+		}
+	}, {
+		"path": "pages/riChang/index",
+		"style": {
+			"navigationBarTitleText": "日常",
+			"navigationBarBackgroundColor": "#1aa034"
+		}
+	}, {
+		"path": "pages/wenHua/index",
+		"style": {
+			"navigationBarTitleText": "文化",
+			"navigationBarBackgroundColor": "#1aa034"
+		}
+	}],
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式（list 的索引项）
+		"list": [{
+			"name": "chuShi", //模式名称
+			"path": "pages/chuShi/index" //启动页面，必选
+			// "query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+		}]
+	},
+	"tabBar": {
+		"list": [{
+			"pagePath": "pages/chuShi/index",
+			"iconPath": "static/tabBar/chuShi.png",
+			"selectedIconPath": "static/tabBar/chuShi-active.png",
+			"text": "初始于都"
+		}, {
+			"pagePath": "pages/riChang/index",
+			"iconPath": "static/tabBar/riChang.png",
+			"selectedIconPath": "static/tabBar/riChang-active.png",
+			"text": "日常"
+		}, {
+			"pagePath": "pages/wenHua/index",
+			"iconPath": "static/tabBar/wenHua.png",
+			"selectedIconPath": "static/tabBar/wenHua-active.png",
+			"text": "文化"
+		}]
+	}
+}
